@@ -25,4 +25,4 @@ jobs:
       # Step 3: Deploy the latest changes to the server
       - name: Deploy via SSH
         run: |
-          ssh -o StrictHostKeyChecking=no ubuntu@18.143.47.30 'cd /var/www/html && git pull origin main'
+          Run ssh -o StrictHostKeyChecking=no ubuntu@18.143.47.30 'cd /var/www/html && git pull origin master'
